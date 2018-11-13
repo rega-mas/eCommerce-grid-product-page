@@ -1,0 +1,14 @@
+
+
+$base-font-size: 17px;
+$base-h1-size: 36px;
+$base-h2-size: 27px;
+
+/*@media screen and (max-width: $mobile-width) {  
+	$base-font-size: 16px;
+	$base-h1-size: 21px;
+}
+*/
+
+$line-height: 1.8;
+$leading: $base-font-size * $line-height;

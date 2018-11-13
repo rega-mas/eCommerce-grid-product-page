@@ -1,0 +1,35 @@
+
+p {
+	font-family: $body-font;
+	font-size: $base-font-size;
+	line-height: $leading;
+}
+
+h1 {
+	font-family: $body-font;
+	font-size: $base-h1-size;
+	line-height: $leading;
+  	margin-bottom: $leading;
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+
+h2 {
+	font-family: $body-font;
+	font-size: $base-h2-size;
+	line-height: #{2.5 * $leading};
+  	margin-bottom: #{1.5 * $leading};
+}
+
+.heading {
+
+	&--blue {
+		color: $heading--blue;
+		display: flex;
+	}
+
+	&--grey {
+		color: $heading--grey;
+	}
+}
+

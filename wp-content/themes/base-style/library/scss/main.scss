@@ -1,0 +1,104 @@
+
+
+/*------------------------------------*\
+    			SETTING
+\*------------------------------------*/
+
+/*
+Global variables and configuration settings. 
+This is where you would put your Sass variables 
+containing all your fonts, typography sizes, colors, 
+paddings, margins, and breakpoints. 
+*/
+
+@import '_settings/colours';
+@import '_settings/fonts';
+@import '_settings/media-query-sizes';
+
+
+
+/*------------------------------------*\
+    			TOOLS
+\*------------------------------------*/
+
+/*
+Globally used mixins and functions. They could be 
+utility functions or layout or theme mixins.
+*/
+
+@import '_tools/font-mixins';
+
+/*------------------------------------*\
+    			GENERIC
+\*------------------------------------*/
+
+/*
+Global resets, box-sizing, or print styles.
+*/
+
+@import '_generic/inputs';
+
+
+/*------------------------------------*\
+    			ELEMENTS
+\*------------------------------------*/
+
+/*
+Styling for bare HTML elements (like H1, A, etc.).
+*/
+
+@import '_elements/body';
+@import '_elements/typography';
+@import '_elements/buttons';
+
+
+
+/*------------------------------------*\
+    			OBJECTS
+\*------------------------------------*/
+
+/*
+Reusable components e.g. .row, .banner, .full-width-image
+*/
+
+@import '_objects/grid';
+@import '_objects/product-information';
+
+
+/*------------------------------------*\
+    			COMPONENTS
+\*------------------------------------*/
+
+/*
+Page specific classes (classes for elemnts used on specific pages)
+*/
+
+@import '_components/_navigation/header';
+@import '_components/_navigation/footer';
+@import '_components/_pages/products';
+@import '_components/_pages/single-products';
+
+
+
+/*------------------------------------*\
+    			UTILITIES
+\*------------------------------------*/
+
+/*
+Utilities and helper classes with ability to override 
+anything which goes before in the triangle, 
+eg. hide helper class
+*/
+
+@import '_utilities/overiding-classes';
+
+
+/*------------------------------------*\
+    			PLUGINS
+\*------------------------------------*/
+
+/*
+Third party style libraries
+*/
+
+
